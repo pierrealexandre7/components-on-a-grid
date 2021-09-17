@@ -12,6 +12,12 @@ html {
 
 body {
   margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header  header"
+    "figure1 figure 2";
 }
 
 img {
@@ -21,4 +27,8 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+main {
+  display: content;
 }

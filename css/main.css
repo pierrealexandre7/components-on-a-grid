@@ -52,3 +52,17 @@ a {
   color: #fff;
   font-size: 2rem;
 }
+
+h2 {
+  color: #30658d;
+}
+
+.pano {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+nav {
+  grid-column: 2 / -1;
+  grid-row: 1;
+}

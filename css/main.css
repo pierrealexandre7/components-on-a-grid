@@ -68,7 +68,7 @@ nav {
   grid-row: 1;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  margin: 0 .5em;
 }
 
 ul {

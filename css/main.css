@@ -92,3 +92,7 @@ figure {
 p {
   margin: 0;
 }
+
+figure img {
+  margin: 0;
+}

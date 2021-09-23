@@ -10,16 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas:
-    "header  header"
-    "figure1 figure 2";
-}
-
 img {
   width: 100%;
 }
@@ -29,6 +19,15 @@ header {
   display: contents;
 }
 
-main {
-  display: content;
+body {
+  background-color: #f2f1ed;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "banner banner"
+    "main main";
+  gap: 1rem;
+  padding: 1rem;
 }

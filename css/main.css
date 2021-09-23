@@ -67,6 +67,7 @@ nav {
   grid-column: 2 / -1;
   grid-row: 1;
   padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 ul {

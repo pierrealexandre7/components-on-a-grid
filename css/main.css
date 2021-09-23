@@ -71,9 +71,8 @@ nav {
 ul {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   padding: 1rem;
-  padding-right: 7rem;
   margin: 0;
 }
 

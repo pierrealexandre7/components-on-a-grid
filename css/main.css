@@ -88,6 +88,11 @@ figure {
   margin: 0;
 }
 
+figcaption {
+  display: flex;
+}
+
 figcaption p {
-  padding: 3rem;
+  flex-grow: 1;
+
 }

@@ -43,3 +43,12 @@ li, h2 {
   grid-row: 1;
   align-self: end;
 }
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  font-size: 2rem;
+}

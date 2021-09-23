@@ -56,6 +56,7 @@ a {
 
 h2 {
   color: #30658d;
+  margin: 0;
 }
 
 .pano {
@@ -90,4 +91,5 @@ figure {
 
 p {
   margin: 0;
+  padding: 1rem;
 }
